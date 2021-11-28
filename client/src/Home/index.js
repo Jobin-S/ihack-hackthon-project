@@ -1,24 +1,10 @@
-import react, {useEffect} from 'react'
+import Navbar from "../components/Navbar";
 import "./Home.css";
-import {auth} from '../firebase'
+
 const Home = () => {
- 
   return (
     <div>
-      <div class="nav-bar">
-        <div class="container_nav-bar">
-          <header>Wastified.</header>
-          {auth.currentUser ? 
-          <div>
-            {auth.currentUser.displayName}
-          </div>
-          :  
-          <div id="login">
-            <button>Login</button>
-          </div>}
-        </div>
-      </div>
-
+      <Navbar />
       <div class="section">
         <div class="container">
           <main>
