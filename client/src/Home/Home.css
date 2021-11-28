@@ -8,16 +8,7 @@
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+*{
   margin: 0;
 }
 
@@ -157,4 +148,8 @@ main h1 {
     border: #84B454 2px solid;
     background-color: transparent;
     margin: 20px auto 0;
+}
+
+.section{
+  margin-top: 15vh;
 }

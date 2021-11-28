@@ -81,7 +81,7 @@ const Home = () => {
           </div>
 
           <div id="main-image">
-            <img src="./Group3.png" alt="main-image" />
+            <img src="Group3.png" alt="main-image" />
           </div>
         </div>
       </div>
